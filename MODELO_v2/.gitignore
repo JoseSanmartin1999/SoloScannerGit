@@ -1,0 +1,134 @@
+# ===================================
+# Python
+# ===================================
+
+# Entorno virtual
+.venv/
+venv/
+ENV/
+env/
+
+# Archivos compilados de Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Distribución / empaquetado
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints/
+
+# ===================================
+# Machine Learning / Datos
+# ===================================
+
+# Datasets (archivos grandes)
+dataset/
+dataset_pro_v3.csv
+
+# Modelos entrenados
+mi_modelo_final_gpu/
+*.h5
+*.pkl
+*.pth
+*.pt
+*.onnx
+*.pb
+
+# Resultados y logs de experimentos
+results/
+logs/
+*.log
+
+# ===================================
+# JavaScript / Node.js
+# ===================================
+
+# Dependencias de Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+
+# Librerías de terceros (si son descargables)
+d3/
+express/
+jquery/
+react/
+vue/
+juice-shop/
+
+# ===================================
+# IDEs y Editores
+# ===================================
+
+# Visual Studio Code
+.vscode/
+*.code-workspace
+
+# PyCharm
+.idea/
+*.iml
+
+# Jupyter
+.jupyter/
+
+# ===================================
+# Sistema Operativo
+# ===================================
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Linux
+*~
+.directory
+
+# ===================================
+# Otros
+# ===================================
+
+# Archivos temporales
+*.tmp
+*.bak
+*.swp
+*.swo
+*~
+
+# Archivos de configuración local
+.env
+.env.local
+*.local
+
+# Caché
+.cache/
+*.cache

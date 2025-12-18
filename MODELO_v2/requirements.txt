@@ -1,0 +1,12 @@
+# Instalación de PyTorch con soporte GPU (CUDA 12.4)
+# Ejecutar primero:
+# pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu124
+
+# Otras dependencias
+pandas
+numpy
+transformers
+scikit-learn
+
+# Nota: torch, torchvision y torchaudio se instalan con el comando especial de arriba
+# para obtener la versión con soporte CUDA
